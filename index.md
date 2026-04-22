@@ -6,81 +6,91 @@ site:
   hide_outline: true
 ---
 
-+++ { "kind": "split-image" }
 
-Welcome
++++ { "kind": "split-image" }
 
 ## Welcome to Open Science
 
+An open-source knowledge database, interactive, neural network formation, with AI
+<!-- ![](https://raw.githubusercontent.com/rowanc1/pics/refs/heads/main/banff-tall.png) -->
+![brain](./images/brain.png)
+
+{button}`Get Started </intro>`
+
++++
+
+## About Open Science
+
 We are building an open-science knowledge initiative at UC Berkeley BIDMaP. Our vision is a multilingual open knowledge infrastructure for STEM learning in the AI and LLM era. We aim to make scientific knowledge high-quality, authoritative, expert-edited, and freely accessible. This resource will be continuously updated for students, educators, and researchers worldwide. It is designed to benefit anyone, regardless of geography or educational resources. Using MOFs as an example, a learner will not only see individual topics but can also navigate across linked concepts. These include organic chemistry, characterization methods, and machine learning. Built on open-source tools from the Jupyter community, the platform offers textbook-style organization with interactive code, visualizations, downloadable notebooks, and LLM-based content support. It checks content accuracy, organizes frontier updates, and guides interpretation.
 
-![](https://raw.githubusercontent.com/rowanc1/pics/refs/heads/main/banff-tall.png)
+![earth](./images/earth.png)
 
-{button}`Documentation </intro>`
+:::{important} Our goals
 
-+++ { "kind": "justified"}
+A de-centralized open-source community
 
-Justified Block
+- No geo-political issue
+- No fee, no barrier, no capital
+- Standard open-source community
+- Multi-language
+- Everyone in the world can use it
+- Scientific Community
 
-## Ready to dive right in?
+Just contribute  - for SCIENCE
+:::
 
-:::::{grid} 1 2 2 2
+## Our projects
+:::::{grid} 1 2 3 3
 ::::{card}
 :url: https://next.juptyerbook.org
-:footer: Jupyter Book
+:footer: General Chemistry
 
-:::{image} ./images/jupyter-book.webp
-:height: 256px
+:::{image} ./images/Fig2-10.jpg
+:height: 100px
 :::
-
-Jupyter Book Documentation
 ::::
 
 ::::{card}
-:url: https://mystmd.org
-:footer: MyST Markdown
+:url: https://next.juptyerbook.org
+:footer: General Chemistry
 
-:::{image} ./images/mystmd.svg
-:height: 256px
+:::{image} ./images/Fig2-10.jpg
+:height: 100px
 :::
-
-MyST Documentation
 ::::
 
+::::{card}
+:url: https://next.juptyerbook.org
+:footer: General Chemistry
+
+:::{image} ./images/Fig2-10.jpg
+:height: 100px
+:::
+::::
 :::::
+
 
 +++ {"kind": "logo-cloud"}
 
-Other projects you've heard of
+Our Funders
 
-::::{grid} 1 2 3 3
+::::{grid} 1 2 3 5
 
-:::{figure} ./images/jupyter.png
+:::{figure} ./images/sustech.png
+:height: 100px
+Jupyter
+:::
+:::{figure} ./images/Berkeley.png
 :height: 100px
 Jupyter
 :::
 
-:::{figure} ./images/jupyter.png
+:::{figure} ./images/Berkeley2.png
 :height: 100px
 Jupyter
 :::
 
-:::{figure} ./images/jupyter.png
-:height: 100px
-Jupyter
-:::
-::::
-
-{button}`Our Funders</>`
-
-::::{grid} 1 2 3 3
-
-:::{figure} ./images/jupyter.png
-:height: 100px
-Jupyter
-:::
-
-:::{figure} ./images/jupyter.png
+:::{figure} ./images/bids.png
 :height: 100px
 Jupyter
 :::
@@ -90,16 +100,4 @@ Jupyter
 Jupyter
 :::
 ::::
-
-+++ { "kind": "centered"}
-
-## Heading 1
-
-A wild caption appeared!
-
-### Heading 2
-
-{button}`Get started</>` See more
-
-[Learn more](/intro)
 
