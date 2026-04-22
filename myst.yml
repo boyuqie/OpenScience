@@ -5,7 +5,7 @@ version: 1
 kernel: python3
 project:  # https://mystmd.org/guide/frontmatter
   id: 55e11f4a-76ea-4f9d-8c20-60c5b814d36a
-  title: Open Science📖
+  title: Home
   description: OpenScience Writing Details
   keywords: []
   authors: [OpenScienceTeam]
@@ -38,14 +38,15 @@ project:  # https://mystmd.org/guide/frontmatter
 # template information about the website
 site:
   template: book-theme
-  title: Authoring Guide
+  title: Open Science
   options:
     hide_toc: false  # Hide the table of contents in the sidebar
     hide_outline: false  # Hide the outline (the floating table of contents)
     logo_text: Open Science
+    logo: favicon.ico
     style: ./css/footer.css
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+    favicon: favicon.ico
+    # logo: ./images/brain.png
     baseUrl: https://openscienceteam.github.io/OpenScience/
   nav:
     - title: Guide
