@@ -42,7 +42,7 @@ Just contribute  - for SCIENCE
 ## Our projects
 :::::{grid} 1 2 3 3
 ::::{card}
-:url: https://next.juptyerbook.org
+:url: https://openscienceteam.github.io/General-Chemistry/
 :footer: General Chemistry
 
 :::{image} ./images/Fig2-10.jpg
@@ -51,7 +51,7 @@ Just contribute  - for SCIENCE
 ::::
 
 ::::{card}
-:url: https://next.juptyerbook.org
+:url: https://openscienceteam.github.io/General-Chemistry/
 :footer: General Chemistry
 
 :::{image} ./images/Fig2-10.jpg
@@ -60,7 +60,7 @@ Just contribute  - for SCIENCE
 ::::
 
 ::::{card}
-:url: https://next.juptyerbook.org
+:url: https://openscienceteam.github.io/General-Chemistry/
 :footer: General Chemistry
 
 :::{image} ./images/Fig2-10.jpg
