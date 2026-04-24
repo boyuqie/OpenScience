@@ -60,7 +60,7 @@ site:
       - title: Generative Models for Materials Science
         url: https://openscienceteam.github.io/aiforscience/
     - title: About
-      url: /About
+      url: /about
   actions:
     - title: OpenScienceTeam
       url: https://github.com/OpenScienceTeam
