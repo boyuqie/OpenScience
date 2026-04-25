@@ -7,7 +7,7 @@ site:
 ---
 
 
-+++ { "kind": "split-image" }
++++ { "kind": "split-image", "class": "hero-split" }
 
 ## Welcome to Open Science
 
@@ -33,13 +33,32 @@ Start with one topic, such as MOFs, and follow the links outward: organic chemis
 
 :::{important} What we stand for
 
-- Free access: no paywalls, no fees, no artificial barriers.
-- Global participation: no geographic gatekeeping, no geopolitical ownership of knowledge.
-- Community standards: open-source workflows, transparent review, and expert stewardship.
-- Multilingual learning: science should be understandable across languages and backgrounds.
-- AI-assisted, human-checked content: faster updates without giving up accuracy.
+::::{grid} 1 1 2 3
+:gutter: 2
+:class-container: pb-3
 
-Contribute for science. Build with the world.
+:::{card} 🔓 Free access
+No paywalls, no fees, no artificial barriers.
+:::
+
+:::{card} 🌍 Global participation
+No geographic gatekeeping, no geopolitical ownership of knowledge.
+:::
+
+:::{card} 🤝 Community standards
+Open-source workflows, transparent review, and expert stewardship.
+:::
+
+:::{card} 🌐 Multilingual learning
+Science should be understandable across languages and backgrounds.
+:::
+
+:::{card} 🤖 AI-assisted, human-checked
+Faster updates without giving up accuracy.
+:::
+::::
+
+**Contribute for science. Build with the world.**
 :::
 
 +++

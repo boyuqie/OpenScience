@@ -109,10 +109,18 @@ body {
   flex: 0 1 auto;
 }
 
+/* Hero split-image CSS for 1:1 brain image */
+.hero-split img {
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
 .image-grid figure img,
-.image-grid img,
-.org-logo-cloud figure img,
-.org-logo-cloud img {
+.image-grid img {
   display: block;
   max-height: 4.5rem; /* 约 72px，限制偏高徽标 */
   max-width: 10.5rem; /* 限制过宽字标，按宽高比自适配另一维 */
@@ -120,4 +128,21 @@ body {
   height: auto;
   object-fit: contain;
   object-position: center;
+}
+
+/* 首页 Logo 墙统一大小和居中 */
+.org-logo-cloud figure img,
+.org-logo-cloud img {
+  display: block;
+  height: 5rem; /* 统一高度 */
+  width: 100%;  /* 铺满格子，配合 object-fit 保证不超且比例不变 */
+  object-fit: contain;
+  object-position: center;
+  padding: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.org-logo-cloud figure img:hover,
+.org-logo-cloud img:hover {
+  transform: scale(1.05); /* 添加一点微互动显得更现代 */
 }
