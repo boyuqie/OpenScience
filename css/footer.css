@@ -95,9 +95,13 @@ body {
   align-items: center; /* 垂直居中对齐不同比例的徽标 */
 }
 
-/* 徽标长宽比差异大：只固定「外框」的最大宽高，由图片固有比例在框内自适应 */
+/* 徽标长宽比差异大：只固定「外框」的最大宽高，由图片固有比例在框内自适应
+ * （.image-grid：about 页；.org-logo-cloud：index 的 logo-cloud 块，勿对整块用 flex 以免破坏标题布局）
+ */
 .image-grid figure,
-.image-grid .figure {
+.image-grid .figure,
+.org-logo-cloud figure,
+.org-logo-cloud .figure {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +110,9 @@ body {
 }
 
 .image-grid figure img,
-.image-grid img {
+.image-grid img,
+.org-logo-cloud figure img,
+.org-logo-cloud img {
   display: block;
   max-height: 4.5rem; /* 约 72px，限制偏高徽标 */
   max-width: 10.5rem; /* 限制过宽字标，按宽高比自适配另一维 */

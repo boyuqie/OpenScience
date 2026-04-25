@@ -19,25 +19,30 @@ An open-source knowledge database, interactive, neural network formation, with A
 
 +++
 
++++ {"kind": "centered", "class": "col-body"}
+
+Open knowledge for the AI era
+
 ## About Open Science
 
-We are building an open-science knowledge initiative at UC Berkeley BIDMaP. Our vision is a multilingual open knowledge infrastructure for STEM learning in the AI and LLM era. We aim to make scientific knowledge high-quality, authoritative, expert-edited, and freely accessible. This resource will be continuously updated for students, educators, and researchers worldwide. It is designed to benefit anyone, regardless of geography or educational resources. Using MOFs as an example, a learner will not only see individual topics but can also navigate across linked concepts. These include organic chemistry, characterization methods, and machine learning. Built on open-source tools from the Jupyter community, the platform offers textbook-style organization with interactive code, visualizations, downloadable notebooks, and LLM-based content support. It checks content accuracy, organizes frontier updates, and guides interpretation.
+Open Science is a community-built knowledge platform for learning, teaching, and exploring science without borders. We turn expert-edited STEM content into connected, multilingual, and interactive learning paths that anyone can use, extend, and improve.
+
+Start with one topic, such as MOFs, and follow the links outward: organic chemistry, characterization, machine learning, visualization, notebooks, datasets, and frontier research updates. Built with open-source tools from the Jupyter ecosystem, this project is designed to be readable by humans, executable by learners, and useful alongside modern AI systems.
 
 ![earth](./images/earth.png)
 
-:::{important} Our goals
+:::{important} What we stand for
 
-A de-centralized open-source community
+- Free access: no paywalls, no fees, no artificial barriers.
+- Global participation: no geographic gatekeeping, no geopolitical ownership of knowledge.
+- Community standards: open-source workflows, transparent review, and expert stewardship.
+- Multilingual learning: science should be understandable across languages and backgrounds.
+- AI-assisted, human-checked content: faster updates without giving up accuracy.
 
-- No geo-political issue
-- No fee, no barrier, no capital
-- Standard open-source community
-- Multi-language
-- Everyone in the world can use it
-- Scientific Community
-
-Just contribute  - for SCIENCE
+Contribute for science. Build with the world.
 :::
+
++++
 
 ## Our projects
 :::::{grid} 1 2 2 2
@@ -62,29 +67,24 @@ Just contribute  - for SCIENCE
 :::::
 
 
-+++ {"kind": "logo-cloud"}
++++ {"kind": "logo-cloud", "class": "org-logo-cloud"}
 
-Our Funders
+Our Supporters and Initiative Collaborators
 
 ::::{grid} 1 2 3 5
 
 :::{figure} ./images/org/sustech.png
-:height: 100px
 :::
 :::{figure} ./images/org/Berkeley.png
-:height: 100px
 :::
 
 :::{figure} ./images/org/Berkeley2.png
-:height: 100px
 :::
 
 :::{figure} ./images/org/bids.png
-:height: 100px
 :::
 
 :::{figure} ./images/org/jupyter.png
-:height: 100px
 :::
 ::::
 
